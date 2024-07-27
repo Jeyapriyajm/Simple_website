@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+
+    <!--Navigation Bar-->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+
+        <div class="navbar-links">
+            <p><a href="index.HTML">Home</a></p>
+            <p><a href="collection.html">Collection</a></p>
+            <p><a href="contact.html">Contact</a></p>
+
+        </div>
+
+        <div onclick="shownavbar()" class="navbar-menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </nav>
+    <!--Side Navigation Bar-->
+
+
+    <nav class="side-navbar">
+        <p onclick="closenavbar()" style="text-align: right;"><i class="fa-solid fa-xmark"></i></p>
+
+
+        <div class="side-navbar-links">
+            <p><a href="index.HTML">Home</a></p>
+            <p><a href="collection.html">Collection</a></p>
+            <p><a href="contact.html">Contact</a></p>
+        </div>
+
+    </nav>
+     <!--Product-->
+
+     <div class="product-section">
+        <form action="" class="produt-search">
+            <input type="text" id="search" placeholder ="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="products" id="product">
+            <div class="product-box">
+            <img src="img/istockphoto-1370975014-1024x1024.jpg" alt="" width="200px" height="200px">
+            <p>White Shirt</p>
+            </div>
+            <div class="product-box">
+                <img src="img/istockphoto-1393067608-1024x1024.jpg" alt="" width="200px" height="200px">
+                <p>Frock</p>
+            </div>
+            <div class="product-box">
+                <img src="img/istockphoto-1481851560-170667a.webp" alt="" width="200px" height="200px">
+                <p>Saree</p>
+            </div>
+            <div class="product-box">
+                <img src="img/istockphoto-1496292974-170667a.webp" alt="" width="200px" height="200px">
+                <p>Scuirt</p>
+            </div>
+            <div class="product-box">
+                <img src="img/photo-1562704480-bacc35380666.avif" alt="" width="200px" height="200px">
+                <p>Crop Top</p>
+            </div>
+            <div class="product-box">
+                <img src="img/photo-1610030469983-98e550d6193c.avif" alt="" width="200px" height="200px">
+                <p>Denim</p>
+            </div>
+            <div class="product-box">
+                <img src="img/istockphoto-1370975014-1024x1024.jpg" alt="" width="200px" height="200px">
+                <p>White Shirt</p>
+            </div>
+            <div class="product-box">
+                <img src="img/photo-1610030469983-98e550d6193c.avif" alt="" width="200px" height="200px">
+                <p>White Shirt</p>
+            </div>
+        </div>
+
+        </div>
+     </div>
+
+
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box1">
+                <h2 class="heading-text">Nastra</h2>
+                <p>Significant improvement of current operational performance levels at terminals is feasible</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffff;"></i>
+                </div>
+                <p>@2024 Nastra.com</p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    
+    <script src="collection.js" ></script>
+    
+
+</body>
+
+</html>
